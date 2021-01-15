@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FeV43PaVYhjn6zxdAHHEbC8IHN50nN/grR9NY6lTjiTigoTpOQeatp35L6gR5v78xUEWQU59BC/STgqNdlW6HA==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\R&D\\Blazor\\EmployeeManagement.Web\\EmployeeManagement.Web\\EmployeeManagement.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ahabib\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
