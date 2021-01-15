@@ -32,3 +32,4 @@ D:\Projects\R&D\Blazor\EmployeeManagement.Web\EmployeeManagement.Web\obj\Debug\n
 D:\Projects\R&D\Blazor\EmployeeManagement.Web\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\EmployeeManagement.Web.Views.pdb
 D:\Projects\R&D\Blazor\EmployeeManagement.Web\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\EmployeeManagement.Web.dll
 D:\Projects\R&D\Blazor\EmployeeManagement.Web\EmployeeManagement.Web\obj\Debug\netcoreapp3.1\EmployeeManagement.Web.pdb
+D:\Projects\R&D\Blazor\EmployeeManagement.Web\EmployeeManagement.Web\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll

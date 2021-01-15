@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Y+wo+5CHZ9yYKuACfu5r7PoXZzaL3I4W17UpcvGYyUArF59ti1g4Txp1imWPfdx8pf0mr3QQXnBSPCNk82j6xw==",
-  "success": false,
+  "dgSpecHash": "efxgC+gFb3PdcZUJDayl85RNlygs+7EWGn65U8aLa3ojpjcp81pWY6zkSv11xMg2+REWzNc3R2zqb75M4xKgmw==",
+  "success": true,
   "projectFilePath": "D:\\Projects\\R&D\\Blazor\\EmployeeManagement.Web\\EmployeeManagement.API\\EmployeeManagement.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahabib\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
@@ -47,7 +47,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
     "C:\\Users\\ahabib\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
-    "C:\\Users\\ahabib\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\ahabib\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "C:\\Users\\ahabib\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
@@ -105,15 +105,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: System.ComponentModel.Annotations from 5.0.0 to 4.7.0. Reference the package directly from the project to select a different version. \r\n EmployeeManagement.API -> EmployeeManagement.Models -> System.ComponentModel.Annotations (>= 5.0.0) \r\n EmployeeManagement.API -> System.ComponentModel.Annotations (>= 4.7.0)",
-      "libraryId": "System.ComponentModel.Annotations",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

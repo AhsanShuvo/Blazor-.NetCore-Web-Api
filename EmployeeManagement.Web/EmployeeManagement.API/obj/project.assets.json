@@ -577,7 +577,7 @@
           "lib/netstandard1.3/System.ComponentModel.dll": {}
         }
       },
-      "System.ComponentModel.Annotations/4.7.0": {
+      "System.ComponentModel.Annotations/5.0.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
@@ -2581,13 +2581,14 @@
         "system.componentmodel.nuspec"
       ]
     },
-    "System.ComponentModel.Annotations/4.7.0": {
-      "sha512": "0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+    "System.ComponentModel.Annotations/5.0.0": {
+      "sha512": "dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
       "type": "package",
-      "path": "system.componentmodel.annotations/4.7.0",
+      "path": "system.componentmodel.annotations/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -2664,7 +2665,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.annotations.4.7.0.nupkg.sha512",
+        "system.componentmodel.annotations.5.0.0.nupkg.sha512",
         "system.componentmodel.annotations.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -5690,8 +5691,7 @@
       "EmployeeManagement.Models >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.10",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.10",
-      "System.ComponentModel.Annotations >= 4.7.0"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.10"
     ]
   },
   "packageFolders": {
@@ -5753,10 +5753,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[3.1.10, )"
-          },
-          "System.ComponentModel.Annotations": {
-            "target": "Package",
-            "version": "[4.7.0, )"
           }
         },
         "imports": [
@@ -5780,16 +5776,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: System.ComponentModel.Annotations from 5.0.0 to 4.7.0. Reference the package directly from the project to select a different version. \r\n EmployeeManagement.API -> EmployeeManagement.Models -> System.ComponentModel.Annotations (>= 5.0.0) \r\n EmployeeManagement.API -> System.ComponentModel.Annotations (>= 4.7.0)",
-      "libraryId": "System.ComponentModel.Annotations",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }
